@@ -66,7 +66,7 @@ const quotes = [
 import React from "react";
 import {FaQuoteLeft, FaQuoteRight, FaTwitter} from "react-icons/fa";
 
-export class App extends React.Component{
+export class RandomQuoteMachine extends React.Component{
 
     constructor(props){
         super(props);

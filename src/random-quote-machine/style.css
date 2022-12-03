@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+}
+
+#quote-box {
+    margin-left: 25%;
+    margin-top: 15%;
+    padding: 30px;
+    width: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+#text {
+    width: 100%;
+    height: 70%;
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#author {
+    width: 100%;
+    height: 15%;
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+    float: left;
+}
+
+.buttons a,
+span {
+    text-decoration: none;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    color: white !important;
+    border: 0px;
+}
+
+
+.buttons a:hover,
+span:hover {
+    background-color: black !important;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: 0.3s !important;
+}
+
+@media screen and (max-width: 900px) {
+    #quote-box {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
